@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Code-Editor</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+  <div id="header">
+      
+      <div id="title">Online Code-Editor</div>
+      <div id="list">
+        <button class="toggleSelected" id="html">HTML</button>
+        <button class="toggleSelected" id="css">CSS</button>
+        <button class="toggleSelected" id="js">JAVASCRIPT</button>
+        <button class="toggleSelected" id="result">RESULT</button>
+      </div>
+      <div>
+        <button id="clear">CLEAR</button>
+      </div>
+    </div>
+
+    <div id ="codeContainerBox">
+        <div id="hc">
+        <h3 id="hh" style="display:none">HTML</h3>
+        <textarea name="html"  id="htmlCont" style="display:none"></textarea>
+      </div>
+      
+
+      <div id="cc">
+         <h3 id="ch" style="display:none">CSS</h3>
+        <textarea name="css"  id="cssCont" style="display:none"></textarea>
+      </div>
+
+      <div  id="jc">
+         <h3 id="jh" style="display:none">JAVASCRIPT</h3>
+        <textarea name="js" id="jsCont" style="display:none"></textarea>
+      </div>
+
+      <div id="rc">
+         <h3 id="rh" style="display:none">OUTPUT</h3>
+        <iframe id="resultCont" style="display:none"></iframe>
+      </div>
+    </div>  
+    
+<script type="text/javascript" src = "script.js"></script>
+</body>
+</html>

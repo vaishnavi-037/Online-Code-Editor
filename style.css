@@ -1,0 +1,109 @@
+*{
+	margin:0;
+	padding: 0;
+	
+}
+
+body{
+	background: #141E30;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#header{
+	display: flex;
+	height: 70px;
+	background: -webkit-linear-gradient(to top, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#title{
+	flex-grow: 0;
+	font-weight: bold;
+	font-size: 45px;
+}
+
+#clear{
+	flex-grow:3;
+	font-size: 30px;
+	border:1px solid rgba(0,0,0,0);
+	border-radius: 10%;
+	padding: 2px 2px;
+	color:white;
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#list{
+	flex-grow:8;
+
+}
+
+#header > div {
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  margin:auto 0;
+
+}
+
+.toggleSelected{
+	border:1px solid rgba(0,0,0,0);
+	border-radius: 10%;
+	padding: 0 10px;
+	display: inline-block;
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 30px;
+	color: white;
+
+}
+
+.toggleSelected:hover{
+background: #1e130c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#codeContainerBox{
+	display: flex;
+}
+
+#codeContainerBox > div {
+  background-color: white;
+  color: black;
+  text-align:center;
+}
+
+.codeContainer{
+	flex-grow: 1;
+	background: #141E30;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ta{
+	overflow: scroll;
+	width: 98%;
+    height: 100vh;
+    font-size: 20px;
+    padding: 5px 5px;
+    background: #8e9eab;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h3{
+	margin-top: 5px;
+	color: white;
+	font-family: cursive;
+	font-size: 25px;
+}
